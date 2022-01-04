@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="410dp"
+        android:layout_height="66dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/userIcon4"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="#00FDFDFD"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:srcCompat="@drawable/usericon"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/firstName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="168dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Adam"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <TextView
+        android:id="@+id/firstName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="1446868722"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstName9"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/firstName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Last Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/firstName2"
+        app:layout_constraintEnd_toStartOf="@+id/firstName7"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstName"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/firstName9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="asmith@abc.com"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstName11"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/firstName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="368dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Mayfair, London"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/firstName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Mobile"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/firstName3"
+        app:layout_constraintEnd_toStartOf="@+id/firstName8"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/firstName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="168dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Smith"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstName8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstName6"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/firstName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/firstName5"
+        app:layout_constraintEnd_toStartOf="@+id/firstName9"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/firstName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="368dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Address"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/firstName11"
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="First Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/firstName6"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="68dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="User01"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userIcon4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/homeUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:text="Home"
+        app:layout_constraintBottom_toTopOf="@+id/bookingUserButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstName5"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <Button
+        android:id="@+id/logoutUserButton"
+        android:layout_width="187dp"
+        android:layout_height="46dp"
+        android:text="Log Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingUserButton"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <Button
+        android:id="@+id/bookingUserButton"
+        android:layout_width="187dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="420dp"
+        android:text="Booking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
