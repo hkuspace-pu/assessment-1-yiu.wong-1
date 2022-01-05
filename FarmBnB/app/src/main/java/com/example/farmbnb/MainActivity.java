@@ -1,8 +1,8 @@
 package com.example.farmbnb;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NotificationCompat;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,22 +24,18 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                if (userid.getText().toString().equals("user01") && password.getText().toString().equals("123456")) {
+                if (userid.getText().toString().equals("user01") && password.getText().toString().equals("123456") ||
+                        userid.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
                     gotoUserInfo();
                 } else {
-                    Toast.makeText(getApplicationContext(), "UserID / Password pair is INVALID", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "UserID / Password pair is INVALID!!", Toast.LENGTH_LONG).show();
                     gotoMainActivity();
                 }
             }
         });
 
             Button signupButton = findViewById(R.id.signUp);
-            signupButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                gotoSignup();
-            }
-        });
+            signupButton.setOnClickListener(view -> gotoSignup());
     }
 
         private void gotoUserInfo() {

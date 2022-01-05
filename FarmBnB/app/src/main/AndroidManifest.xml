@@ -10,7 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FarmBnB">
         <activity
-            android:name=".ConfirmBookingActivity"
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmHutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BarnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FarmHouseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmBarnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmFarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookingActivity"
             android:exported="false" />
         <activity
             android:name=".UserInfoActivity"

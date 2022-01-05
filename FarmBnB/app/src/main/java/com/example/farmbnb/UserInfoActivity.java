@@ -2,10 +2,8 @@ package com.example.farmbnb;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 public class UserInfoActivity extends AppCompatActivity {
@@ -16,28 +14,13 @@ public class UserInfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_info);
 
         Button homeUserButton = findViewById(R.id.homeUserButton);
-        homeUserButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                gotoHome();
-            }
-        });
+        homeUserButton.setOnClickListener(view -> gotoHome());
 
-        Button bookingUserButton = findViewById(R.id.bookingUserButton);
-        bookingUserButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                gotoBooking();
-            }
-        });
+        Button bookingUserButton = findViewById(R.id.bookUserButton);
+        bookingUserButton.setOnClickListener(view -> gotoBooking());
 
         Button logoutUserButton = findViewById(R.id.logoutUserButton);
-        logoutUserButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                gotoMainActivity();
-            }
-        });
+        logoutUserButton.setOnClickListener(view -> gotoMainActivity());
     }
 
     private void gotoBooking() {

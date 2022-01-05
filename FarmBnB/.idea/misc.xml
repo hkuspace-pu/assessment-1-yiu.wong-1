@@ -4,15 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout-w1240dp/activity_booking.xml" value="0.201171875" />
+        <entry key="app/src/main/res/layout/activity_barn.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/activity_booking.xml" value="0.23324275362318841" />
         <entry key="app/src/main/res/layout/activity_booking_history.xml" value="0.22916666666666666" />
+        <entry key="app/src/main/res/layout/activity_confirm_barn.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/activity_confirm_booking.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_confirm_farm.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_confirm_hut.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/activity_confrim_hut.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/activity_edit_info.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_farm_house.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_history.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_hut.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_user_info.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_user_info.xml" value="0.25" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.23324275362318841" />
+        <entry key="app/src/main/res/menu/menu_home.xml" value="0.335" />
       </map>
     </option>
   </component>

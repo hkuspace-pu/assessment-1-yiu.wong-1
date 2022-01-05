@@ -17,8 +17,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/userIcon4"
+    <ImageButton
+        android:id="@+id/userInfoIcon"
         android:layout_width="50dp"
         android:layout_height="52dp"
         android:layout_marginStart="344dp"
@@ -178,39 +178,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userIcon4"
+        app:layout_constraintTop_toBottomOf="@+id/userInfoIcon"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/homeUserButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:text="Home"
-        app:layout_constraintBottom_toTopOf="@+id/bookingUserButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstName5"
-        app:layout_constraintVertical_bias="0.493" />
-
-    <Button
-        android:id="@+id/logoutUserButton"
-        android:layout_width="187dp"
-        android:layout_height="46dp"
-        android:text="Log Out"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bookingUserButton"
-        app:layout_constraintVertical_bias="0.196" />
-
-    <Button
-        android:id="@+id/bookingUserButton"
-        android:layout_width="187dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="420dp"
-        android:text="Booking"
+        android:id="@+id/bookUserButton"
+        android:layout_width="188dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="424dp"
+        android:text="Book Now"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <Button
+        android:id="@+id/homeUserButton"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="92dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logoutUserButton"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="92dp"
+        android:text="Log Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
